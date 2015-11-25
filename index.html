@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Babylon Terrain</title>
+
+    <!-- Terrain references -->
+    <link href="css/index.css" rel="stylesheet" />
+
+    <!-- Babylon.js -->
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/pep.js"></script>
+    <script src="scripts/Oimo.js"></script>
+    <script src="scripts/babylon.max.js"></script>
+
+    <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+
+
+        #fps {
+            position:absolute; 
+            background-color: #000;
+            padding: 5px;
+            top:10px; 
+            right: 10px; 
+            color: #0A0;
+            font-size: 14pt;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body oncontextmenu="return false;" cz-shortcut-listen="true">
+    <canvas id="renderCanvas"></canvas>
+    <script src="scripts/appBundle.js"></script>
+    <div id="fps"></div>
+</body>
+</html>

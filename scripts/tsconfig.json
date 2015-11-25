@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": false,
+      "module": "system",
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "out": "appBundle.js",
+        "target": "es5"
+    }
+}
